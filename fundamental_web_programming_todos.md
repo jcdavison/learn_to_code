@@ -1,5 +1,6 @@
 ## DEVELOPMENT TOOLING SETUP
 
+include link to blog post
 - [ ] install xcode and the developer tools
 - [ ] install homebrew
 - [ ] install and verify a modern version of git
@@ -8,14 +9,15 @@
 
 ## GENERAL RUBY PROGRAMMING
 
+include link to blog post
 - [ ] Recognize and verify basic data types `String` `Hash` `Array` `Boolean` `Fixnum` `Float` and `nil`
 - [ ] Create and use a variable
-- [ ] Define a method
+- [ ] Define a method, call a defined method
 - [ ] Define input parameters to a method
 - [ ] Use input parameters inside a method
 - [ ] Create both explicit and implicit return values
 - [ ] Run a ruby script
-- [ ] Differentiate between return value and print statements
+- [ ] Differentiate between return values and print statements
 - [ ] Create a class definition with both instance and class methods
 - [ ] Use local and instance variables inside a class definition
 - [ ] Instantiate a defined class
@@ -23,6 +25,7 @@
 
 ## RUBY STRING
 
+include link to blog post
 - [ ] Create and differentiate `''` from `""` based Strings
 - [ ] Demonstrate `String` concatenation
 - [ ] Demonstrate `String` interpolation
@@ -30,9 +33,12 @@
 - [ ] Write a method that uses an equality check `==` to return different strings
 - [ ] Demonstate awareness of the index positions inside a `String`
 - [ ] Manually iterate from left to right, right to left of a `String`
+- [ ] Familiarize yourself with the ruby `String` standard library
+- [ ] Identify the resoures required to gain a more complex skillset with the `String`
 
 ## RUBY ARRAY
 
+include link to blog post
 - [ ] Create an `Array`
 - [ ] Populate an `Array` with a `String`, `Hash`, `Boolean`, `nil`, `Fixnum`, `Float` even another `Array`
 - [ ] Access an `Array` with at least 5 things using an index based lookup
@@ -45,6 +51,7 @@
 
 ## RUBY HASH
 
+include link to blog post
 - [ ] Create a `Hash`
 - [ ] Demonstrate awarenes of a key value pair
 - [ ] Populate a `Hash` with at least 3 key value pairs
@@ -55,25 +62,24 @@
 - [ ] Iterate over all key value pairs in a `Hash`
 - [ ] Demonstrate awareness of how an `Array` uses index and a `Hash` uses a key
 
-## APPLICATION DEVELOPMENT - THE REQUEST (ie, the client)
+## APPLICATION DEVELOPMENT - THE REQUEST
 
-- [ ] Build an html page with `<head></head><body></body>` and `<form></form>` elements
-- [ ] Build a resonably complex html layout using as many html elements and css attributes as possible
+include link to blog post
 - [ ] Manually write a hyper link that has at least 2 query parameters
+- [ ] Build a reasonably complex html layout using as many html elements and css attributes as possible
 - [ ] Demonstrate three different ways to create a `GET` request to a local server
-- [ ] Manually write a `<Form>` that that can create a `POST` request to a local server
-- [ ] Manually write a `<Form>` that that can create a `PUT` request to a local server
-- [ ] Manually write a `<Form>` that that can create a `DELETE` request to a local server
-- [ ] Demonstrate awareness of the different between the browser process (the requestor) and the server process (the responder)
+- [ ] Manually write a `<Form>` that that can send a `POST` request to a local server
+- [ ] Manually write a `<Form>` that that can send a `PUT` request to a local server
+- [ ] Manually write a `<Form>` that that can send a `DELETE` request to a local server
+- [ ] Demonstrate awareness of the difference between the browser process (the requestor) and the server process (the responder)
 - [ ] Demonstrate awareness of the difference between a request made to a local server and a server located on the internet
-- [ ] Dissect  `http://waffles.io:9999/pancakes/1278Ikllkj` url into protocol, server, port and uri components.
-- [ ] Use jquery to dynamically change the DOM
-- [ ] User jquery to create asyncronous `GET`, `POST`, `PUT`, `DELETE` actions to a remote server
-- [ ] Demonstrate awareness of the differenece between syncronous and asyncronous client/server interactions
 
 
-## APPLICATION DEVELOPMENT - THE RESPONSE (ie, the server)
+## APPLICATION DEVELOPMENT - THE RESPONSE
 
+include link to blog post
+
+- [ ] Create a server endpoint that returns either a string or html depending on the query parameter `waffle`.
 - [ ] Create a server with two different endpoints that run the same program with identical return values
 - [ ] Create a server with two different endpoints that run the same program with identical return values but returned in different data formats, (json, html and text blob)
 - [ ] Create a server that accepts a `GET` request and returns relevant feedback to the requestor (client)
@@ -81,4 +87,11 @@
 - [ ] Create a server that accepts a `PUT` request and uses the body of the request  update data into a database, return relevant feedback to the requestor (client)
 - [ ] Create a server endpoint that accepts a `DELETE` request and uses the body of the request  destroy data from a database, return relevant feedback to the requestor (client)
 - [ ] Create a server endpoint that allows for the creation of a many to many database record
-- [ ]
+- [ ] Build a server that can serve static html or dynamic (programatically) generated html.
+
+## APPLICATION DEVELOPMENT - THE CLIENT
+
+- [ ] Dissect  `http://waffles.io:9999/pancakes/1278Ikllkj` url into protocol, server, port and uri components.
+- [ ] Use jquery to dynamically change the DOM
+- [ ] User jquery to create asyncronous `GET`, `POST`, `PUT`, `DELETE` actions to a remote server
+- [ ] Demonstrate awareness of the differenece between syncronous and asyncronous client/server interactions
